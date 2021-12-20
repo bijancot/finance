@@ -12,7 +12,7 @@
                             <?php
                             $template = array('table_open' => '<table id="tblDashboard" class="table-custom">');
                             $this->table->set_template($template);
-                            $this->table->set_heading('No', 'No. STNK', 'Merk', 'Umur Kendaraan', 'Region', 'Jumlah Transaksi', 'Total transaksi');
+                            $this->table->set_heading('No', 'No. STNK', 'Merk', 'Umur Kendaraan', 'Jenis Pengeluaran', 'Jumlah Transaksi', 'Total transaksi');
                             ?>
                         </tr>
                     </thead>
@@ -54,7 +54,7 @@
                             <!-- <?php
                             $template = array('table_open' => '<table id="tblDashboard" class="table-custom">');
                             $this->table->set_template($template);
-                            $this->table->set_heading('No','No. STNK', 'Merk', 'Umur Kendaraan', 'Region', 'Jumlah Transaksi', 'Total transaksi');
+                            $this->table->set_heading('No','No. STNK', 'Merk', 'Umur Kendaraan', 'Jenis Pengeluaran', 'Jumlah Transaksi', 'Total transaksi');
                             ?> -->
                         </tr>
                     </thead>
